@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="./fontawesome-free-5.13.0-web/css/all.min.css">
+    <title>Fees</title>
+</head>
+
+<body>
+    <div class="Navbar">
+        <nav class="Navbar__Items">
+            <div class="Navbar__Link Navbar__Link-brand">
+                <div class="square">
+                    <a href="#"><img src="Logo.PNG" alt="logo"></a>
+                </div>
+            </div>
+            <div class="Navbar__Link Navbar__Link-create">
+               <a href="#">Create account</a>
+            </div>
+            <div class="Navbar__Link Navbar__Link-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="Navbar__Link" id="sss">
+               <a href="">Secure Wallet</a> 
+            </div>
+            <div class="Navbar__Link" id="sss">
+               <a href="">Exchange</a> 
+            </div>
+            <div class="Navbar__Link" id="sss">
+               <a href="">Margin trading</a>
+            </div>
+            <div class="Navbar__Link" id="sss">
+                ...
+            </div>
+        </nav>
+        <nav class="Navbar__Items Navbar__Items-right">
+            <div class="Navbar__Link" id="sss">
+               Log in
+            </div>
+            <div class="Navbar__Link nav_link_s" id="sss">
+               Sign up
+            </div>
+            <div class="Navbar__Link nav_link_lang" id="sss">
+                Eng
+            </div>
+        </nav>
+    </div>
+    <section class="exhange">
+        <div class="container">
+            <div class="to_flex_hf_he">
+                <div class="heading_fees">
+                    <h1>Fees <br> and Limits</h1>
+                </div>
+                <div class="heading_exhange">
+                    <img src="exchange@2x.png" alt="exhange imagine">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="describe">
+        <div class="container">
+            <div class="to_flex_dp_img">
+                <div class="describe_part">
+                    <p>Each trading pair is a dedicated microservice written in go
+                        that is capable to run more than a million transactions per a second.
+                        We use in-memory storage to store all operations and our own data
+                        storage system to handle fast trading operations.</p>
+                    <p class="hide"><a href="#"><i class="fas fa-chevron-down"></i></a> <span
+                            class="span_describe_part">Take answer below</span></p>
+                </div>
+                <div class="main_img">
+                    <img src="fees.PNG" alt="fees logo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="poll">
+        <div class="container">
+            <h3>What is the desired size of the fee on the exchange?</h3>
+            <form class="form-poll">
+                <div class="form-poll-row">
+                    <div class="col-small">
+                        <div class="form-poll__title">
+                            Maker
+                        </div>
+                    </div>
+                    <div class="col-big">
+                        <div class="form-group-radio">
+                            <div class="custom-control">
+                                <input type="radio" id="test1" name="radio-group" checked>
+                                <label for="test1">0.05</label>
+                            </div>
+                            <div class="custom-control">
+                                <input type="radio" id="test2" name="radio-group" checked>
+                                <label for="test2">1</label>
+                            </div>
+                            <div class="custom-control">
+                                <input type="radio" id="test3" name="radio-group" checked>
+                                <label for="test3">0.15</label>
+                            </div>
+                            <div class="custom-control">
+                                <input type="radio" id="test" name="radio-group" checked>
+                                <label for="test4">0.2</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-small">
+                        <div class="form-group">
+                            <label for="user-variant-1">Your variant</label>
+                            <input type="text" id="user-variant-1" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-poll-row">
+                    <div class="col-small">
+                        <div class="form-poll__title">
+                            Taker
+                        </div>
+                    </div>
+                    <div class="col-big">
+                        <div class="form-group-radio">
+                            <div class="custom-control">
+                                <input type="radio" id="test21" name="radio-group" checked>
+                                <label for="test21">0.05</label>
+                            </div>
+                            <div class="custom-control">
+                                <input type="radio" id="test22" name="radio-group" checked>
+                                <label for="test22">1</label>
+                            </div>
+                            <div class="custom-control">
+                                <input type="radio" id="test23" name="radio-group" checked>
+                                <label for="test23">0.15</label>
+                            </div>
+                            <div class="custom-control">
+                                <input type="radio" id="test24" name="radio-group" checked>
+                                <label for="test24">0.2</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-small">
+                        <div class="form-group">
+                            <label for="user-variant-2">Your variant</label>
+                            <input type="text" id="user-variant-2" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="email">
+        <div class="container">
+            <div class="to_flex_te_btn">
+                <div class="take_email">
+                    <p class="ask_email">Take your email and we give you beta version our exchange wallet</p>
+                    <input type="text" name="usermail" placeholder="Your Email" class="value_mail">
+                </div>
+                <div class="btn_done">
+                    <button>Done</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="start_trade">
+        <p>start your trade now</p>
+    </section>
+    <footer>
+        <button class="btn_footer">Create Your Account</button>
+        <div class="container_footer">
+            <div class="container_footer2">
+                <div class="to_flex_bf">
+                    <div class="blocks_footer">
+                        <p>Info</p>
+                        <ul>
+                            <li>User support</li>
+                            <li>Knowledge base</li>
+                            <li>FAQ</li>
+                            <li>Fees and limits</li>
+                            <li>Referral program</li>
+                        </ul>
+                    </div>
+                    <div class="blocks_footer">
+                        <p>Trade Now</p>
+                        <ul>
+                            <li>Secure Wallet</li>
+                            <li>Exchange</li>
+                            <li>Margin Trade</li>
+                        </ul>
+                    </div>
+                    <div class="blocks_footer">
+                        <p>About</p>
+                        <ul>
+                            <li>News</li>
+                            <li>Blog</li>
+                            <li>Our Features</li>
+                            <li>Road map</li>
+                            <li>Reviews</li>
+                        </ul>
+                    </div>
+                    <div class="blocks_footer">
+                        <p>Dociments</p>
+                        <ul>
+                            <li>User agreement</li>
+                            <li>Privacy Policy</li>
+                            <li>AML/KYC Policy</li>
+                            <li>Token Purchase Agreement</li>
+                            <li>Wrongdepo Policy</li>
+                            <li>Media-Kit</li>
+                        </ul>
+                    </div>
+                    <div class="blocks_footer">
+                        <p>Follow us</p>
+                        <div class="awesome1">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-github-square"></i>
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="awesome1">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="awesome1">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">© 2019 Exchange2.net</p>
+        </div>
+    </footer>
+</body>
+
+</html>
